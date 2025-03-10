@@ -14,6 +14,7 @@ def main():
     for char_dict in sorted_dict(characters):
         if char_dict["char"].isalpha():
             print(f"{char_dict["char"]}: {char_dict["count"]}")
+    print(f"============= END ===============")
 
 #def main():
     #text = get_book_text("books/frankenstein.txt")
